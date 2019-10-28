@@ -1,3 +1,6 @@
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+}
 .d-block {
     height: 50% !important;
     width: 100% !important;
