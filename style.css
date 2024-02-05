@@ -1,0 +1,81 @@
+
+:root {
+    /* Colors */
+    --black: #000;
+    --black-light: #110F0F;
+    --white: #fff;
+    --yellow: #FF9700;
+
+    /* fonts */
+
+}
+
+/* Resets */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+* {
+margin: 0;
+}
+
+/* Utils */
+.button-alt {
+    background-color: var(--yellow);
+    padding: 4px 8px;
+}
+
+.container {
+    padding: 0 70px;
+}
+
+.btn-primary {
+    background: var(--yellow);
+    padding: 6px 12px;
+    border-radius: 30px;
+}
+
+
+/* Nav */
+.nav {
+    background-color: var(--black);
+    color: var(--white);
+    height: 72px;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 72px;
+}
+
+.ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 0 10px;
+}
+
+/* Hero */
+.hero {
+    width: 100%;
+    height: 90vh;
+    background-image: url('./images/pattern.jpg');
+    mix-blend-mode: color-dodge;
+    color: var(--white);
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.hero-content h1 {
+    font-size: 96px;
+}
